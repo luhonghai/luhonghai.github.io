@@ -1,3 +1,13 @@
+/*
+Template Name: MU Material
+Author: MarkUps
+Author URI: http://www.markups.io/
+Description: MU Material - Responsive Personal Portfolio Template with Material Design
+Version: 1.0
+Tags: light, white,One page,Personal,Portfolio,Material,Flat,custom-colors,Multi Color,responsive, html5, css3
+*/
+
+
 /* Table of Content
 ==================================================
 
@@ -102,7 +112,7 @@ nav .brand-logo img {
 
 
 #home {
-  background-image: url("img/home-img3.jpg");
+  background-image: url("img/home-img1.jpg");
   background-position: 100% 100%;
   background-size: 100% 100%;
   display: inline;
@@ -187,9 +197,9 @@ nav .brand-logo img {
 .profile-img {
   border: 5px solid #fff;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  height: 200px;
+  height: 130px;
   margin: 0 auto;
-  width: 200px;
+  width: 140px;
 }
 
 
@@ -298,9 +308,9 @@ nav .brand-logo img {
 
 
 .skill-progress-bar{
-  display: inline;
-  width: 40%;
-  margin: auto 5%;
+  display: inline;  
+  float: left;  
+  width: 100%;  
 }
 
 
@@ -731,13 +741,13 @@ transition: background-color 0.5s ease-in-out;
   padding: 15px;
   position: relative;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-  min-height: 335px;
 }
 
 
 .testimonial-img {
   display: inline;
   float: left;
+  height: 150px;
   width: 25%;
 }
 
@@ -1848,6 +1858,7 @@ textarea.materialize-textarea {
   .prev2 {margin-top: 13.5%;}
   .next2 {margin-top: 13.5%;}
   .contact-map{height: 492px;}
+
   
 }
 
@@ -1872,6 +1883,7 @@ textarea.materialize-textarea {
   .call-to-about {left: 45.5%;}
   .up-btn {left: 45.5%;}
   .custom-nav li a { padding: 25px 20px;}
+
 }
 
 
@@ -1911,6 +1923,7 @@ textarea.materialize-textarea {
   .author-name {font-size: 18px;}
   .pagination li {height: 25px;width: 25px;}
   .custom-pagination li a {font-size: 12px;line-height: 25px;}
+
 }
 
 
@@ -2014,10 +2027,4 @@ textarea.materialize-textarea {
   .children {margin-left: 10px;}
   .pagination li {width: 25px;margin: 0 5px;}
 
-}
-
-@media(min-width: 480px) {
-  .skill-progress-bar{
-    float: left;
-  }
 }
