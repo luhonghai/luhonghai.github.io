@@ -113,7 +113,7 @@ nav .brand-logo img {
 }
 
 
-#home .overlay-section {
+.overlay-section {
   background: rgba(0, 0, 0, 0.7) none repeat scroll 0 0;
   height: 100%;
   width: 100%;
@@ -163,7 +163,7 @@ nav .brand-logo img {
   background-color: #fafafa;
   float: left;
   display: inline;
-  padding: 80px 0px; 
+  padding: 70px 0 0 0;
   width: 100%;  
 }
 
@@ -345,7 +345,6 @@ nav .brand-logo img {
   color: #fff;
 }
 
-
 .experience-inner > p {
   color: #fff;
   font-size: 16px;
@@ -357,7 +356,6 @@ nav .brand-logo img {
 .experience-slider{
   display: inline;
   float: left;
-  margin-top: 55px;
   padding-left: 20px;
   width: 100%;
 }
@@ -710,7 +708,6 @@ transition: background-color 0.5s ease-in-out;
 .testimonial-slider-area{
   display: inline;
   float: left;
-  margin-top: 60px;  
   width: 100%;
   position: relative;
 }
@@ -939,7 +936,6 @@ transition: background-color 0.5s ease-in-out;
 
 .footer-top{
   display: inline;
-  padding: 60px 0;  
   float: left;  
   width: 100%;
 }
@@ -948,7 +944,8 @@ transition: background-color 0.5s ease-in-out;
 .footer-top-inner{
   display: inline;  
   float: left;  
-  width: 100%;  
+  width: 100%;
+  margin: 60px 0;
 }
 
 
@@ -965,7 +962,6 @@ transition: background-color 0.5s ease-in-out;
 .contact{
   display: inline;
   float: left;
-  margin-top: 50px;
   width: 100%;
 }
 
@@ -1049,26 +1045,18 @@ textarea.materialize-textarea {
 }
 
 
-.design-info {
-  color: #555;
-  display: inline-block; 
-  font-size: 14px;
-  line-height: 25px;
-  margin-top: 20px;
-}
-
-
-.design-info a{
-  color: #555;
-}
-
-
 .copyright-info {
   color: #555;
-  display: inline-block;
-  float: right;
-  font-size: 14px;
-  line-height: 25px;  
+  display: inline-block; 
+  font-size: 12px;
+  line-height: 25px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+
+.copyright-info a{
+  color: #555;
 }
 
 
@@ -1831,7 +1819,25 @@ textarea.materialize-textarea {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 
+.social-link {
+  margin: 0 auto;
+  list-style:none;
+  width: 152px;
+  overflow: hidden;
+}
 
+.social-link li {
+  float:left;
+  margin: 0 7px;
+}
+
+.footer-top{
+  background-image: url("img/books-colored.jpg");
+  background-position: 100% 100%;
+  background-size: 100% 100%;
+  display: inline;
+  position: relative;
+}
 
 /*--------------------*/
 /* RESPONSIVE STYLE */
@@ -1942,7 +1948,7 @@ textarea.materialize-textarea {
   .contact-map {height: 350px;margin-top: 30px;}
   .prev2 { margin-top: 30.5%;}
   .next2 {margin-top: 30.5%;}
-  .design-info {text-align: center;width: 100%;margin-top: 15px;margin-bottom: 0px;}
+  .copyright-info {text-align: center;width: 100%;margin-top: 15px;margin-bottom: 4px;}
   .copyright-info {text-align: center; width: 100%;margin-top: 5px;}
   .call-to-about {left: 43%;bottom: -165px;}
   .up-btn {left: 43%;}
@@ -1982,8 +1988,6 @@ textarea.materialize-textarea {
   .testimonial-content {padding-left: 15px;width: 100%;}
   .prev2 { margin-top: 70%;}
   .next2{margin-top: 70%;}
-  .copyright-info { font-size: 12px;}
-  .design-info {font-size: 13px;}
   .call-to-about {left: 40.7%;bottom: -145px;}
   .up-btn {left: 40.7%;}
   .personal-information > h3 {font-size: 18px;}
@@ -2016,7 +2020,7 @@ textarea.materialize-textarea {
 
 }
 
-@media(min-width: 480px) {
+@media(min-width: 700px) {
   .skill-progress-bar{
     float: left;
   }

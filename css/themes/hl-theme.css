@@ -85,9 +85,7 @@ a {
 .testimonial-content h3 {
     color: #3FA1DA;
 }
-.footer-top{
-    background-color:#3FA1DA;
-}
+
 input[type="text"]:focus:not([readonly]) + label,
 input[type="password"]:focus:not([readonly]) + label,
 input[type="email"]:focus:not([readonly]) + label,
