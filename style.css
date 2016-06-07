@@ -102,12 +102,8 @@ nav .brand-logo img {
 
 
 #home {
-  background-image: url("img/home-img3.jpg");
-  background-position: 100% 100%;
-  background-size: 100% 100%;
   display: inline;
   float: left;
-  height: 420px;
   position: relative;
   width: 100%;
 }
@@ -149,7 +145,7 @@ nav .brand-logo img {
 
 
 .call-to-about {
-  bottom: -68px;  
+  bottom: -28px;
   left: 47.5%;
   position: absolute;
 }
@@ -609,9 +605,6 @@ transition: background-color 0.5s ease-in-out;
 
 
 #facts {
-  background-image: url("img/home-img3.jpg");
-  background-position: center center;
-  background-size: 100% 100%;
   display: inline;
   float: left;   
   position: relative;
@@ -1831,11 +1824,8 @@ textarea.materialize-textarea {
   margin: 0 7px;
 }
 
-.footer-top{
-  background-image: url("img/books-colored.jpg");
-  background-position: 100% 100%;
-  background-size: 100% 100%;
-  display: inline;
+.parallax-holder {
+  overflow: hidden;
   position: relative;
 }
 
@@ -1862,7 +1852,6 @@ textarea.materialize-textarea {
 
   .home-inner {padding: 30px;}
   .home-title {font-size: 55px;}
-  .call-to-about {bottom: -95px;}
   .resume-btn { margin-top: 30px;}
   .prev {margin-top: 28%;}
   .next {margin-top: 28%;}
@@ -1905,6 +1894,7 @@ textarea.materialize-textarea {
   .blog-content h3 {font-size: 21px;}
   .blog-content h4 {font-size: 18px;}
   .blog-content h5{font-size: 15px;}
+  #portfolio-list .mix {height: 250px; margin-bottom: 15px; width: 49%;}
   .blog-content p{font-size: 13px;}
   .blog-content blockquote p {font-size: 15px;}
   .blog-post-content h2, .blog-post-content h2 a {font-size: 15px;}
@@ -1950,7 +1940,7 @@ textarea.materialize-textarea {
   .next2 {margin-top: 30.5%;}
   .copyright-info {text-align: center;width: 100%;margin-top: 15px;margin-bottom: 4px;}
   .copyright-info {text-align: center; width: 100%;margin-top: 5px;}
-  .call-to-about {left: 43%;bottom: -165px;}
+  .call-to-about {left: 43%;}
   .up-btn {left: 43%;}
   .header-title { font-size: 20px;}
   .recent-img {height: 70px;width: 25%;}
@@ -1988,7 +1978,7 @@ textarea.materialize-textarea {
   .testimonial-content {padding-left: 15px;width: 100%;}
   .prev2 { margin-top: 70%;}
   .next2{margin-top: 70%;}
-  .call-to-about {left: 40.7%;bottom: -145px;}
+  .call-to-about {left: 40.7%;}
   .up-btn {left: 40.7%;}
   .personal-information > h3 {font-size: 18px;}
   .reply-btn {font-size: 12px;padding: 6px 8px;}
@@ -2012,7 +2002,7 @@ textarea.materialize-textarea {
   .testimonial-content p {font-size: 12px;}
   .prev2 { margin-top: 77%;}
   .next2{margin-top: 77%;}
-  .call-to-about {bottom: -120px; left: 39%;}
+  .call-to-about {left: 39%;}
   .up-btn {left: 39%;}
   .header-title {font-size: 16px;line-height: 30px;}
   .children {margin-left: 10px;}

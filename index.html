@@ -69,23 +69,26 @@
         <main role="main">
           <!-- START HOME SECTION -->
           <section id="home">
-            <div class="overlay-section">
-              <div class="container">
-                <div class="row">
-                  <div class="col s12">
-                    <div class="home-inner">
-                      <h1 class="home-title">HI! I'm <span>Hai Lu</span></h1>
-                      <p>I'm a Senior software developer. And I have been working in both Web and Mobile technologies.</p>
-                      <a class="hire-me-btn btn waves-effect waves-light btn-large" href="#footer">Get in touch with me <i class="mdi-content-send left"></i>
-                      </a>
-                      <!-- Call to About Button -->
-                      <button class="btn btn-floating waves-effect waves-light btn-large white call-to-about"><i class="material-icons">play_for_work</i></button>                  
+            <div class="parallax-holder">
+              <div class="parallax"><img src="img/home-img3.jpg"></div>
+              <div class="overlay-section">
+                <div class="container">
+                  <div class="row">
+                    <div class="col s12">
+                      <div class="home-inner">
+                        <h1 class="home-title">HI! I'm <span>Hai Lu</span></h1>
+                        <p>I'm a Senior software developer. And I have been working in both Web and Mobile technologies.</p>
+                        <a class="hire-me-btn btn waves-effect waves-light btn-large" href="#footer">Get in touch with me <i class="fa fa-paper-plane left" aria-hidden="true"></i>
+                        </a>
+
+                      </div>
                     </div>
-                  </div>  
+                  </div>
                 </div>
               </div>
             </div>
           </section>
+
 
           <!-- START ABOUT SECTION -->
           <section id="about">
@@ -115,7 +118,7 @@
                             </ul>
                           </div>
                           <div class="resume-download col s12 m12 l6">
-                            <a href="cv/hai_lu_cv.pdf" target="_blank" class="waves-effect waves-light btn-large resume-btn"><i class="mdi-content-archive left"></i> Download Resume</a>
+                            <a title="Last updated June 6, 2016" href="cv/hai_lu_cv.pdf" target="_blank" class="waves-effect waves-light btn-large resume-btn"><i class="fa fa-download left" aria-hidden="true"></i> Download Resume</a>
                           </div>
                         </div>
                       </div>
@@ -315,9 +318,9 @@
                    <h2 class="title">Portfolio</h2>
                    <div class="controls">  
                     <button class="filter waves-effect waves-light btn" data-filter="all">All</button>
-                    <button class="filter waves-effect waves-light btn" data-filter=".html">HTMl</button>
-                    <button class="filter waves-effect waves-light btn" data-filter=".design">Design</button>
-                    <button class="filter waves-effect waves-light btn" data-filter=".fashion">Fashion</button>
+                    <button class="filter waves-effect waves-light btn" data-filter=".android">Android</button>
+                    <button class="filter waves-effect waves-light btn" data-filter=".ios">iOS</button>
+                    <button class="filter waves-effect waves-light btn" data-filter=".web-desktop">Web &amp; Desktop</button>
                 </div>
               </div>
             </div>
@@ -327,57 +330,67 @@
                 <div class="portfolio-bottom-inner">
                   <div id="portfolio-list">                    
                     <div class="mix html" data-value="2">
-                      <a href="#">
+                      <a href="#modal1">
                         <img src="img/portfolio/html/html-2.jpg" alt="img">
-                        <i class="material-icons view-icon">pageview</i>
+                        <i class="fa fa-search view-icon" aria-hidden="true"></i>
                       </a>
+                      <!-- Modal Structure -->
+                      <div id="modal1" class="modal modal-fixed-footer">
+                        <div class="modal-content">
+                          <h4>Modal Header</h4>
+                          <p>A bunch of text</p>
+                        </div>
+                        <div class="modal-footer">
+                          <a class="modal-action modal-close waves-effect waves-green btn-flat ">close</a>
+                        </div>
+                      </div>
                     </div>
                     <div class="mix fashion" data-value="4">
                       <a href="#">
                         <img src="img/portfolio/fashion/fashion-1.jpg" alt="img">
-                        <i class="material-icons view-icon">pageview</i>           
+                        <i class="fa fa-search view-icon" aria-hidden="true"></i>
                       </a>
                     </div>
                     <div class="mix design" data-value="1">
                       <a href="#">
                         <img src="img/portfolio/design/design-1.jpg" alt="img">
-                        <i class="material-icons view-icon">pageview</i>
+                        <i class="fa fa-search view-icon" aria-hidden="true"></i>
                       </a>
                     </div>
                     <div class="mix html" data-value="5">
                       <a href="#">
                         <img src="img/portfolio/html/html-1.jpg" alt="img">
-                        <i class="material-icons view-icon">pageview</i>
+                        <i class="fa fa-search view-icon" aria-hidden="true"></i>
                       </a>
                     </div>
                     <div class="mix fashion" data-value="3">
                       <a href="#">
                         <img src="img/portfolio/fashion/fashion-2.jpg" alt="img">
-                        <i class="material-icons view-icon">pageview</i>
+                        <i class="fa fa-search view-icon" aria-hidden="true"></i>
                       </a>
                     </div>
                     <div class="mix design" data-value="9">
                       <a href="#">
                         <img src="img/portfolio/design/design-2.jpg" alt="img">
-                        <i class="material-icons view-icon">pageview</i>
+                        <i class="fa fa-search view-icon" aria-hidden="true"></i>
                       </a>
                     </div>
                     <div class="mix html" data-value="12">
                       <a href="#">
                         <img src="img/portfolio/html/html-3.jpg" alt="img">
-                        <i class="material-icons view-icon">pageview</i>
+                        <i class="fa fa-search view-icon" aria-hidden="true"></i>
                       </a>
                     </div>
                     <div class="mix fashion" data-value="7">
                       <a href="#">
                         <img src="img/portfolio/fashion/fashion-3.jpg" alt="img">
-                        <i class="material-icons view-icon">pageview</i>
+                        <i class="fa fa-search view-icon" aria-hidden="true"></i>
                       </a>
                     </div>
                     <div class="mix design" data-value="6">
                       <a href="#">
                         <img src="img/portfolio/design/design-3.jpg" alt="img">
-                        <i class="material-icons view-icon">pageview</i>
+                        <i class="fa fa-search view-icon" aria-hidden="true"></i>
                       </a>
                     </div>
 
@@ -388,31 +401,35 @@
           </section>
           <!-- Start Facts -->
           <section id="facts">
-            <div class="facts-overlay">
-              <div class="container">
-              <div class="row">
-                <div class="col s12">
-                  <div class="facts-inner">
-                    <div class="row">
-                      <div class="col s12 m4 l4">
-                        <div class="single-facts waves-effect waves-block waves-light">
-                          <i class="material-icons">android</i>
-                          <span class="counter">8</span>
-                          <span class="counter-text">Android app</span>
-                        </div>
-                      </div>
-                      <div class="col s12 m4 l4">
-                        <div class="single-facts waves-effect waves-block waves-light">
-                          <i class="material-icons">supervisor_account</i>
-                          <span class="counter">2</span>
-                          <span class="counter-text">iOS app</span>
-                        </div>
-                      </div>
-                      <div class="col s12 m4 l4">
-                        <div class="single-facts waves-effect waves-block waves-light">
-                          <i class="material-icons">redeem</i>
-                          <span class="counter">4</span>
-                          <span class="counter-text">Web &amp; Desktop app</span>
+            <div class="parallax-holder">
+              <div class="parallax"><img src="img/home-img4.jpg"></div>
+              <div class="facts-overlay">
+                <div class="container">
+                  <div class="row">
+                    <div class="col s12">
+                      <div class="facts-inner">
+                        <div class="row">
+                          <div class="col s12 m4 l4">
+                            <div class="single-facts waves-effect waves-block waves-light">
+                              <i class="fa fa-android" aria-hidden="true"></i>
+                              <span class="counter">8</span>
+                              <span class="counter-text">Android app</span>
+                            </div>
+                          </div>
+                          <div class="col s12 m4 l4">
+                            <div class="single-facts waves-effect waves-block waves-light">
+                              <i class="fa fa-apple" aria-hidden="true"></i>
+                              <span class="counter">2</span>
+                              <span class="counter-text">iOS app</span>
+                            </div>
+                          </div>
+                          <div class="col s12 m4 l4">
+                            <div class="single-facts waves-effect waves-block waves-light">
+                              <i class="fa fa-laptop" aria-hidden="true"></i>
+                              <span class="counter">4</span>
+                              <span class="counter-text">Web &amp; Desktop app</span>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
@@ -420,7 +437,7 @@
                 </div>
               </div>
             </div>
-            </div>
+
           </section>
           <!-- Testimonial -->
           <section id="testimonial">
@@ -485,35 +502,39 @@
           <footer id="footer" role="contentinfo">
             <!-- Start Footer Top -->
             <div class="footer-top">
-              <div class="overlay-section">
-              <div class="container">
-                <div class="row">
-                  <div class="col s12">
-                    <div class="footer-top-inner">
-                      <h2 class="title">Contact</h2>
-                      <div class="contact">
-                        <div class="row">
-                          <div class="col s12 m12 l12">
-                            <div class="contact-form">
-                              <form>
-                                <div class="input-field">
-                                  <input type="text" class="input-box" name="contactName" id="contact-name">
-                                  <label class="input-label" for="contact-name">Name</label>
+              <div class="parallax-holder">
+                <div class="parallax"><img src="img/books-colored.jpg"></div>
+                <div class="overlay-section">
+                  <div class="container">
+                    <div class="row">
+                      <div class="col s12">
+                        <div class="footer-top-inner">
+                          <h2 class="title">Contact</h2>
+                          <div class="contact">
+                            <div class="row">
+                              <div class="col s12 m12 l12">
+                                <div class="contact-form">
+                                  <form>
+                                    <div class="input-field">
+                                      <input type="text" class="input-box" name="contactName" id="contact-name">
+                                      <label class="input-label" for="contact-name">Name</label>
+                                    </div>
+                                    <div class="input-field">
+                                      <input type="email" class="input-box validate" name="contactEmail" id="email">
+                                      <label data-error="invalid email address"  class="input-label" for="email">Email</label>
+                                    </div>
+                                    <div class="input-field">
+                                      <input type="text" class="input-box" name="contactSubject" id="subject">
+                                      <label class="input-label" for="subject">Subject</label>
+                                    </div>
+                                    <div class="input-field textarea-input">
+                                      <textarea class="materialize-textarea" name="contactMessage" id="textarea1"></textarea>
+                                      <label class="input-label" for="textarea1">Message</label>
+                                    </div>
+                                    <button class="left waves-effect btn-flat brand-text submit-btn" type="submit">send message</button>
+                                  </form>
                                 </div>
-                                <div class="input-field">
-                                  <input type="email" class="input-box" name="contactEmail" id="email">
-                                  <label class="input-label" for="email">Email</label>
-                                </div>
-                                <div class="input-field">
-                                  <input type="text" class="input-box" name="contactSubject" id="subject">
-                                  <label class="input-label" for="subject">Subject</label>
-                                </div>
-                                <div class="input-field textarea-input">
-                                  <textarea class="materialize-textarea" name="contactMessage" id="textarea1"></textarea>
-                                  <label class="input-label" for="textarea1">Message</label>
-                                </div>
-                                <button class="left waves-effect btn-flat brand-text submit-btn" type="submit">send message</button>
-                              </form>
+                              </div>
                             </div>
                           </div>
                         </div>
@@ -521,7 +542,6 @@
                     </div>
                   </div>
                 </div>
-              </div>
               </div>
             </div>
             <!-- Start Footer Bottom -->
@@ -531,8 +551,8 @@
                   <div class="col s12">
                     <div class="footer-inner">
                       <!-- Bottom to Up Btn -->
-                      <button class="btn-floating btn-large up-btn"><i class="mdi-navigation-expand-less"></i></button>
-                      <div class="copyright-info">copyright © 2016 <a href="mailto:luhonghai@gmail.com">luhonghai@gmail.com</a>, based on theme from <a target="_blank" href="http://www.markups.io/">markups.io</a></div>
+                      <button class="btn-floating btn-large up-btn"><i class="fa fa-angle-up" aria-hidden="true"></i></button>
+                      <div class="copyright-info">copyright © 2016 <a href="mailto:luhonghai@gmail.com">luhonghai@gmail.com</a>, based on <a target="_blank" href="http://materializecss.com">materializecss</a></div>
                       <ul class="social-link">
                         <li><a href="https://linkedin.com/in/luhonghai"
                                                                          title="Linkedin" target="_blank"><img
