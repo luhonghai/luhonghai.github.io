@@ -474,14 +474,21 @@ nav .brand-logo img {
 
 .app-download a {
   float: left;
-  width: 125px !important;
+  width: 135px !important;
   height: 40px !important;
   margin: 8px;
 }
 
-.app-download img {
-  width: 125px !important;
-  height: 40px !important;
+.app-download .google-play {
+  background-image: url("img/googleplay.png");
+}
+
+.app-download .appstore {
+  background-image: url("img/appstore.gif");
+}
+
+.app-download .amazon-appstore {
+  background-image: url("img/amazon-appstore.png");
 }
 
 .portfolio-top{
