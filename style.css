@@ -453,6 +453,29 @@ nav .brand-logo img {
   width: 100%;
 }
 
+.app-tech {
+  font-size: 20px;
+  overflow: hidden;
+  float: left;
+  margin: 8px;
+  color: #dbdbdb;
+}
+
+.app-tech i {
+  margin: 3px;
+}
+
+.app-download {
+  width: 100%;
+  overflow: hidden;
+}
+
+.app-download a {
+  float: left;
+  width: 125px;
+  height: 40px;
+  margin: 8px;
+}
 
 .portfolio-top{
   display: inline;  
