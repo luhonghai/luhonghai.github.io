@@ -439,7 +439,9 @@ nav .brand-logo img {
   width: 100%;
 }
 
-
+.education-inner .card {
+  min-height: 388px;
+}
 
 /*--------------------*/
 /* PORTFOLIO */
@@ -549,7 +551,7 @@ nav .brand-logo img {
 #portfolio-list .mix{
   display: none;
   float: left;
-  height: 320px;
+  height: 300px;
   margin-bottom: 1.33%;
   margin-left: 1%;
   width: 32.33%;
@@ -756,7 +758,6 @@ transition: background-color 0.5s ease-in-out;
 
 
 .testimonial-img img{
-  height: 100%;
   width: 100%;
 }
 
