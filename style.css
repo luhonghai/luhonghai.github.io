@@ -470,6 +470,7 @@ nav .brand-logo img {
 .app-download {
   width: 100%;
   overflow: hidden;
+  height: 40px;
 }
 
 .app-download a {
@@ -477,6 +478,11 @@ nav .brand-logo img {
   width: 125px;
   height: 40px;
   margin: 8px;
+}
+
+.app-download img {
+  width: 125px;
+  height: 40px;
 }
 
 .portfolio-top{
