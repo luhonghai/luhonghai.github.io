@@ -1851,13 +1851,17 @@ textarea.materialize-textarea {
 .social-link {
   margin: 0 auto;
   list-style:none;
-  width: 152px;
+  width: 180px;
   overflow: hidden;
 }
 
 .social-link li {
   float:left;
   margin: 0 7px;
+}
+
+.social-link {
+  font-size: 25px !important;
 }
 
 .parallax-holder {
