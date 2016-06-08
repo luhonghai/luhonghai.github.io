@@ -207,8 +207,10 @@ jQuery(function($){
 	});
 
 	jQuery(".submit-btn").click(function(e) {
-		if ($('#form-contact')[0].checkValidity()) {
+		if (jQuery('#form-contact')[0].checkValidity()) {
 			e.preventDefault();
+			jQuery('#progress-form').show();
+			jQuery('#form-contact fieldset').prop('disabled','disabled');
 			jQuery.ajax({
 				type: "POST",
 				url: "http://luhonghai-blog.appspot.com/contact",
@@ -224,9 +226,13 @@ jQuery(function($){
 					jQuery('#email').val('');
 					jQuery('#subject').val('');
 					jQuery('#textarea1').val('');
+					jQuery('#progress-form').hide();
+					jQuery('#form-contact fieldset').prop('disabled','');
 					Materialize.toast('Your message has been sent successfully!', 3000);
 				},
 				error: function(error) {
+					jQuery('#progress-form').hide();
+					jQuery('#form-contact fieldset').prop('disabled','');
 					Materialize.toast('Could not send message!', 3000);
 				}
 			});

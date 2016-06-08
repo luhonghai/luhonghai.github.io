@@ -1877,6 +1877,10 @@ textarea.materialize-textarea {
 
 }
 
+#form-contact fieldset {
+  border: none;
+}
+
 /*--------------------*/
 /* RESPONSIVE STYLE */
 /*--------------------*/
