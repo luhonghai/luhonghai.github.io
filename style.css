@@ -563,7 +563,6 @@ nav .brand-logo img {
 #portfolio-list .mix{
   display: none;
   float: left;
-  height: 300px;
   margin-bottom: 1.33%;
   margin-left: 1%;
   width: 32.33%;
@@ -615,7 +614,7 @@ transition: background-color 0.5s ease-in-out;
   color: #fff;
   top: 42%;
   visibility: hidden;  
-  font-size: 50px !important;
+  font-size: 40px !important;
   left: -1%;
   position: absolute;
   text-align: center;
@@ -1894,7 +1893,7 @@ textarea.materialize-textarea {
   .next {margin-top: 28%;}
   .prev1 {margin-top: 28%;}
   .next1 {margin-top: 28%;}
-  #portfolio-list .mix {height: 240px;}
+
   .prev2 {margin-top: 24.5%;left: -12%;}
   .next2 {margin-top: 24.5%;right: -8.5%;}
   .blog-post-content h2, .blog-post-content h2 a {font-size: 16px;}
@@ -1931,7 +1930,7 @@ textarea.materialize-textarea {
   .blog-content h3 {font-size: 21px;}
   .blog-content h4 {font-size: 18px;}
   .blog-content h5{font-size: 15px;}
-  #portfolio-list .mix {height: 250px; margin-bottom: 15px; width: 49%;}
+  #portfolio-list .mix {margin-bottom: 15px; width: 49%;}
   .blog-content p{font-size: 13px;}
   .blog-content blockquote p {font-size: 15px;}
   .blog-post-content h2, .blog-post-content h2 a {font-size: 15px;}
@@ -1970,7 +1969,7 @@ textarea.materialize-textarea {
   .prev1 { margin-top: 49%;}
   .next1{margin-top: 49%;}
   .filter {margin-bottom: 5px;margin-right: 5px;}
-  #portfolio-list .mix {height: 250px; margin-bottom: 15px; width: 100%;}
+  #portfolio-list .mix {margin-bottom: 15px; width: 100%;}
   .single-facts {margin-bottom: 25px;}
   .contact-map {height: 350px;margin-top: 30px;}
   .prev2 { margin-top: 30.5%;}
