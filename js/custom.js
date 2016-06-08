@@ -230,7 +230,6 @@ jQuery(function($){
 					Materialize.toast('Could not send message!', 3000);
 				}
 			});
-		} else {
 		}
 	});
 
