@@ -1869,6 +1869,14 @@ textarea.materialize-textarea {
   position: relative;
 }
 
+.toast-message-success {
+
+}
+
+.toast-message-error {
+
+}
+
 /*--------------------*/
 /* RESPONSIVE STYLE */
 /*--------------------*/

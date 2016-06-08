@@ -207,7 +207,31 @@ jQuery(function($){
 	});
 
 	jQuery(".submit-btn").click(function(e) {
-		e.preventDefault();
+		if ($('#form-contact')[0].checkValidity()) {
+			e.preventDefault();
+			jQuery.ajax({
+				type: "POST",
+				url: "http://luhonghai-blog.appspot.com/contact",
+				contentType: "application/x-www-form-urlencoded;charset=UTF-8",
+				data: {
+					name: jQuery('#contact-name').val(),
+					email: jQuery('#email').val(),
+					subject: jQuery('#subject').val(),
+					message: jQuery('#textarea1').val()
+				},
+				success: function(data) {
+					jQuery('#contact-name').val('');
+					jQuery('#email').val('');
+					jQuery('#subject').val('');
+					jQuery('#textarea1').val('');
+					Materialize.toast('Your message has been sent successfully!', 3000);
+				},
+				error: function(error) {
+					Materialize.toast('Could not send message!', 3000);
+				}
+			});
+		} else {
+		}
 	});
 
 
