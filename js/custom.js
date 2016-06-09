@@ -206,11 +206,18 @@ jQuery(function($){
         'slow');
 	});
 
+	function cleanFormItem(selector) {
+		var $selector = jQuery(selector);
+		$selector.val('');
+		$selector.trigger('autoresize');
+		$selector.focusout();
+	}
+
 	jQuery(".submit-btn").click(function(e) {
 		if (jQuery('#form-contact')[0].checkValidity()) {
 			e.preventDefault();
 			jQuery('#progress-form').show();
-			jQuery('#form-contact fieldset').prop('disabled','disabled');
+			jQuery('#form-contact fieldset').prop('disabled', 'disabled');
 			jQuery.ajax({
 				type: "POST",
 				url: "http://luhonghai-blog.appspot.com/contact",
@@ -221,22 +228,25 @@ jQuery(function($){
 					subject: jQuery('#subject').val(),
 					message: jQuery('#textarea1').val()
 				},
-				success: function(data) {
-					jQuery('#contact-name').val('');
-					jQuery('#email').val('');
-					jQuery('#subject').val('');
-					jQuery('#textarea1').val('');
+				success: function (data) {
+					cleanFormItem('#contact-name');
+					cleanFormItem('#email');
+					cleanFormItem('#subject');
+					cleanFormItem('#textarea1');
 					jQuery('#progress-form').hide();
-					jQuery('#form-contact fieldset').prop('disabled','');
+					jQuery('#form-contact fieldset').prop('disabled', '');
 					Materialize.toast('Your message has been sent successfully!', 3000);
 				},
-				error: function(error) {
+				error: function (error) {
 					jQuery('#progress-form').hide();
-					jQuery('#form-contact fieldset').prop('disabled','');
+					jQuery('#form-contact fieldset').prop('disabled', '');
 					Materialize.toast('Could not send message!', 3000);
 				}
 			});
+		} else {
+
 		}
+
 	});
 
 
